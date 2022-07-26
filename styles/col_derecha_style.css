@@ -1,0 +1,147 @@
+.columna-derecha{
+    width: 60%;
+    height: 100%;
+   
+    display: flex;
+    flex-direction: column;
+    padding: 0 5%;
+    font-family: 'Black Ops One', cursive;
+
+    justify-content: flex-start;
+}
+
+
+
+
+.experiencia h2,.educacion h2,.habilidades h2,.certificaciones h2,.idioma h2,.contacto h2,.personales h2{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-size: 0.9vw;
+    padding: 10px;
+    text-align: left;
+
+    
+}
+.item-menu h2:hover{
+    background-color: var(--color1);
+    cursor: pointer;
+}
+
+
+
+.escuela{
+    font-family: 'Roboto Mono', monospace;
+  
+    font-size: 0.7vw;
+    color: var(--color3);
+    margin: 15px 0;
+}
+
+.escuela p{
+    margin-top: 5px;
+}
+
+.actualidad{
+    color:red;
+}
+.actual{
+    background-color: #92de837c;
+}
+
+
+
+.habilidades h3{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1vw;
+    color: var(--color3);
+    margin: 10px 0;
+}
+.img-habilidades,.img-habilidades-audiovisuales{
+    width: 4vw;
+    height: 4vw;
+    margin-top: 5px;
+}
+.img-habilidades-audiovisuales{
+   border-radius: 15%;
+}
+.grilla{
+    padding-left: 1vw;
+}
+
+.contenido-educacion,.contenido-habilidades{
+    display: none;
+    
+}
+.contenido-certificaciones{
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    
+    
+    
+
+    
+   
+}
+.img-certificaciones{
+    width: 6vw;
+    height: 6vw;
+    margin: 0;
+}
+.certificado{
+    width: 8vw;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    
+
+    
+}
+.certificado p{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.9vw;
+    color: var(--color3);
+}
+
+.contenido-idioma{
+    display: none;
+}
+.idioma p,.idioma h3{
+    font-family: 'Roboto Mono', monospace;
+}
+.idioma h3{
+    color: var(--color3);
+    font-size: 1vw;
+}
+.idioma p{
+    margin-left: 1vw;
+    font-size: 0.9vw;
+}
+
+.contenido-contacto{
+    display: none;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contenido-contacto ul{
+    list-style: none;
+    font-family: 'Roboto Mono', monospace;
+    color: var(--color3);
+    font-size: 0.9vw;
+}
+
+.contenido-contacto i{
+font-size: 1.3vw;
+margin-right: 0.3vw;
+}
+
+
+
+
+
