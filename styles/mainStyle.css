@@ -147,23 +147,27 @@ body{
 .globo-clip{
     width: 10vw;
     
-    background-image: url('/images/globo_clip.png');
+    background-image: url('images/globo_clip.png');
     background-size: 100% 100%;
+    background-color: rgb(245, 245, 166);
+   
     
 
     position: absolute;
-    right: -22%;
+    right: -25%;
     bottom: 12%;
 
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
 }
 
 .contenedor-globo-clip{
     width: 9vw;
-    padding: 5px 5px 15px 5px;
+    padding: 5px 5px 5px 5px;
 
    
     
@@ -173,7 +177,7 @@ body{
     background: none;
     border: 1px solid grey;
     border-radius: 5px;
-    margin: 5px 0;
+    margin-top: 5px;
     
     display: flex;
     flex-direction: row;

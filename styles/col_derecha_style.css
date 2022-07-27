@@ -157,8 +157,9 @@ margin-right: 0.3vw;
     height: 5vw;
     width: 5vw;
     
-    background-color: var(--color3);
+    background-color: var(--color1);
     margin: 5px 5px 5px 0;
+    border-radius: 10px;
 }
 
 .contenido-experiencia{
@@ -167,35 +168,5 @@ margin-right: 0.3vw;
     flex-direction: row;
     flex-wrap: wrap;
 
-}
-
-.exp1{
-    background-image: url(/images/kscaritas.png);
-    background-size: 100% 100%;
-}
-
-.exp2{
-    background-image: url(/images/low.png);
-    background-size: 100% 100%;
-}
-
-.exp3{
-    background-image: url(/images/clima.png);
-    background-size: 100% 100%;
-}
-
-.exp4{
-    background-image: url(/images/exchange.png);
-    background-size: 100% 100%;
-}
-
-.exp5{
-    background-image: url(/images/losmonos.png);
-    background-size: 100% 100%;
-}
-
-.exp6{
-    background-image: url(/images/arcana.png);
-    background-size: 100% 100%;
 }
 
