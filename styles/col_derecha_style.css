@@ -23,8 +23,13 @@
     
 }
 .item-menu h2:hover{
-    background-color: var(--color1);
+    /* background-color: var(--color1); */
     cursor: pointer;
+    background-color: var(--color1);
+}
+
+.item-menu h2{
+    box-sizing: border-box;
 }
 
 
@@ -140,8 +145,57 @@
 font-size: 1.3vw;
 margin-right: 0.3vw;
 }
+.contenido-personales{
+    display: none;
+}
+.contenido-personales p{
+    font-size: 0.8vw;
+    font-family: 'Roboto Mono', monospace;
+}
 
+.div-exp{
+    height: 5vw;
+    width: 5vw;
+    
+    background-color: var(--color3);
+    margin: 5px 5px 5px 0;
+}
 
+.contenido-experiencia{
+    display: none;
 
+    flex-direction: row;
+    flex-wrap: wrap;
 
+}
+
+.exp1{
+    background-image: url(/images/kscaritas.png);
+    background-size: 100% 100%;
+}
+
+.exp2{
+    background-image: url(/images/low.png);
+    background-size: 100% 100%;
+}
+
+.exp3{
+    background-image: url(/images/clima.png);
+    background-size: 100% 100%;
+}
+
+.exp4{
+    background-image: url(/images/exchange.png);
+    background-size: 100% 100%;
+}
+
+.exp5{
+    background-image: url(/images/losmonos.png);
+    background-size: 100% 100%;
+}
+
+.exp6{
+    background-image: url(/images/arcana.png);
+    background-size: 100% 100%;
+}
 
