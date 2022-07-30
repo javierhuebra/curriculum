@@ -167,6 +167,6 @@ margin-right: 0.3vw;
 
     flex-direction: row;
     flex-wrap: wrap;
-
+    position: relative;
 }
 

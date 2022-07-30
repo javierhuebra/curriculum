@@ -1,0 +1,108 @@
+.caja-pdf:hover h3{
+    color: var(--color1);
+}
+
+.contenedor-globo-clip button:hover{
+    background-color: #dddddc7a;
+    cursor: pointer;
+}
+
+.descripcion-exp{
+    width: 10vw;
+    
+    background-color: rgb(245, 245, 166);
+    position: absolute;
+    
+
+    font-family: Times New Roman, Times, 'serif';
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    
+    padding: 10px;
+
+    /* color: var( --primary-color); */
+
+   border-radius: 5px;
+    
+    border: 1px solid gray;
+
+}
+
+.descripcion-exp p{
+    margin-bottom: 5px;
+    font-size: 1vw;
+}
+.descripcion-exp button{
+    padding: 5px 7px;
+    
+    border: none;
+    background-color:rgb(245, 245, 166);
+    border: 1px solid gray;
+
+    border-radius: 5px;
+}
+.descripcion-exp button:hover{
+    background-color: rgb(206, 206, 206);
+    cursor: pointer;
+}
+
+.desc-1{
+    left: -15%;
+    top: 40%;
+    display: none;
+    
+}
+.exp1:hover ~ .desc-1{
+    
+    display: flex;
+}
+.desc-1:hover{
+    display: flex;
+}
+
+.desc-2{
+    left: 15%;
+    top: 40%;
+    display: none;
+}
+.exp2:hover ~ .desc-2{
+    
+    display: flex;
+}
+.desc-2:hover{
+    display: flex;
+}
+
+.desc-3{
+    left: 45%;
+    top: 40%;
+    display: none;
+}
+.exp3:hover ~ .desc-3{
+    
+    display: flex;
+}
+.desc-3:hover{
+    display: flex;
+}
+.desc-4{
+    display: none;
+}
+.desc-5{
+    display: none;
+}
+.desc-6{
+    display: none;
+}
+
+.descripcion-exp div{
+    border-top: 1px solid gray;
+    padding-top: 10px;
+    
+}
