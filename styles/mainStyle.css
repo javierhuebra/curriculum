@@ -33,14 +33,14 @@ body{
 }
 
 :root{
-    --primary-color: #595691;
+    --primary-color: #0B2047;
     --secondary-color: #DEC0AF;
 
     --letritas-color:rgb(228, 228, 228);
 
-    --color1:#9D9ADE;
-    --color2:#92DE83;
-    --color3:#66915D;
+    --color1:#3471E0;
+    --color2:#184394;
+    --color3:#205AC7;
 }
 
 .columna-izquierda{
@@ -88,11 +88,16 @@ body{
     font-family: 'Roboto Mono', monospace;
     color: var(--letritas-color);
 }
-
+.cont-javi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .imagen-javi{
-    width: 100%;
-    
+    width: 90%;
+    border-radius: 50%;
     background-color: var(--secondary-color);
+    margin-top: 15px;
     
 }
 
