@@ -5,7 +5,7 @@
 }
 body{
     height: 100vh;
-    background-color: #9e9ade42;
+    background-color: #3470e031;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,7 +15,7 @@ body{
 .container-principal{
     width: 80vw;
     margin: auto;
-    background-color: #9f9ade52;
+    background-color: #3470e02a;
     padding: 2.5vh 0;
     
     
@@ -42,7 +42,20 @@ body{
     --color2:#184394;
     --color3:#205AC7;
 }
-
+@keyframes cambiar-color{
+    0%{
+        background-color: var(--secondary-color);
+    }
+    25%{
+        background-color: var(--color1);
+    }
+    50%{
+        background-color: var(--letritas-color);
+    }
+    100%{
+        background-color: var(--color2);
+    }
+}
 .columna-izquierda{
     width: 40%;
     height: 100%;
@@ -96,8 +109,10 @@ body{
 .imagen-javi{
     width: 90%;
     border-radius: 50%;
-    background-color: var(--secondary-color);
+    
     margin-top: 15px;
+
+    animation: cambiar-color 10s infinite alternate;
     
 }
 
@@ -123,6 +138,7 @@ body{
     font-size: 0.8vw;
     margin-top: 10px;
     margin-bottom: 25px;
+    
 }
 
 .competencias h2{
